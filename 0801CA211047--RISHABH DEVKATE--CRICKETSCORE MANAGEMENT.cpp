@@ -73,7 +73,7 @@ void scoreManager()
 		break;
 	case 4 :    
 		 /* No Ball code */
-        score++;
+                score++;
 		printf("\nAny extra runs if yes, press 'Y/y' to adds runs: ");
 		fflush(stdin);
 		scanf("%c", &extraRuns);
@@ -134,7 +134,7 @@ int main()
 {
 	
 	FILE *fp, *fp2;  
-    fp = fopen("card.txt", "w");//opening file 
+        fp = fopen("card.txt", "w");//opening file 
 	fp2 = fopen("card.txt", "a"); // 
 
 
@@ -143,11 +143,11 @@ int main()
 	int  whichTeamBat;
 	printf("\nEnter the name of the team1 => ");
 	scanf("%s", team1);
-    printf("\nThe name of the team1 = %s", team1);
+        printf("\nThe name of the team1 = %s", team1);
 
 	printf("\nEnter the name of the team2 => ");
 	scanf("%s", team2);
-    printf("\nThe name of the team1 = %s", team2);
+        printf("\nThe name of the team1 = %s", team2);
 
 
 	printf("\nWhich team is batting first? => ");
